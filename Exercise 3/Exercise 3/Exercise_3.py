@@ -7,4 +7,4 @@ dias = int(input("\nquantos dias desse mes se passaram?\n"))
 resultado = (anos * 365) + (meses * 30) + dias
 print("\n----------------------------------------------------------------\n")
 print("\nresultado:\n")
-print(f"\nvoce ja viveu {resultado} dias\n\n")
+print(f"\nVoce ja viveu {resultado} dias\n\n")
