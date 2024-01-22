@@ -1,2 +1,10 @@
 # algoritmo que le idade de uma pessoa expressa em anos, meses e dias e escreve a idade em dias. Considerando o ano 365 dias e mes 30 dias
-# algorithm thar reads person's age expressed in years, months and days and writes the age in days. Considering the year 365 and month 30
+
+anos = int(input("\nquantos Anos voce tem?\n"))
+meses = int(input("\nquantos meses se passaram desde o seu aniversario?\n"))
+dias = int(input("\nquantos dias desse mes se passaram?\n"))
+
+resultado = (anos * 365) + (meses * 30) + dias
+print("\n----------------------------------------------------------------\n")
+print("\nresultado:\n")
+print(f"\nvoce ja viveu {resultado} dias\n\n")
